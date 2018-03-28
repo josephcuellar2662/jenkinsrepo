@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<controllers>
+    <controller class="controllers.LoginController" path="/login">
+        <handler method="POST">
+            <handle>doPost</handle>
+        </handler>
+    </controller>
+
+    <controller class="controllers.FormRequestController" path="/formrequest">
+        <handler method="POST">
+            <handle>doPost</handle>
+        </handler>
+    </controller>
+
+    <controller class="controllers.RetrieveAppsController" path="/retrieveapps">
+        <handler method="POST">
+            <handle>doPost</handle>
+        </handler>
+    </controller>
+
+    <controller class="controllers.SupervisorController" path="/supervisordecision">
+        <handler method="POST">
+            <handle>doPost</handle>
+        </handler>
+    </controller>
+
+</controllers>
